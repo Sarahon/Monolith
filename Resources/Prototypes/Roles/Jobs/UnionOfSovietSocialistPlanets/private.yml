@@ -1,0 +1,27 @@
+- type: job
+  id: USSPPrivate
+  name: job-name-ussp-private
+  description: job-description-ussp-private
+  playTimeTracker: JobUSSPPrivate
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: UnionOfSovietSocialistPlanets
+      time: 0
+  startingGear: USSPPrivateGear
+  icon: "JobIconUSSPPrivate"
+  supervisors: job-supervisors-ussp
+  canBeAntag: false
+  accessGroups:
+  - GeneralAccess
+
+- type: startingGear
+  id: USSPPrivateGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorRed  # Using a red jumpsuit placeholder
+    back: ClothingBackpackSecurity
+    shoes: ClothingShoesBootsCombat
+    id: USSPPrivatePDA
+    ears: ClothingHeadsetSecurity  # Using security headset as a placeholder
+  innerclothingskirt: ClothingUniformJumpskirtColorRed  # Using a red jumpskirt placeholder
+  satchel: ClothingBackpackSatchelSecurity
+  duffelbag: ClothingBackpackDuffelSecurity

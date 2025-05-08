@@ -1,0 +1,14 @@
+- type: entity
+  parent: IDCardStandard
+  id: USSPPrivateIDCard
+  name: USSP private ID card
+  description: A card issued to loyal soldiers of the Union of Soviet Socialist Planets.
+  components:
+  - type: IdCard
+    job: job-name-ussp-private
+    jobColor: "#B22222" # Soviet Red
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idholostrip
+      color: "#B22222" # Soviet Red 

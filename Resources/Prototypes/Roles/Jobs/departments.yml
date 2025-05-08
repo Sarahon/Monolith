@@ -144,6 +144,16 @@
   primary: false # Frontier
 
 - type: department
+  id: UnionOfSovietSocialistPlanets
+  name: department-UnionOfSovietSocialistPlanets
+  description: department-UnionOfSovietSocialistPlanets-description
+  color: "#B22222" # Soviet Red color
+  weight: 110
+  roles:
+  - USSPPrivate
+  primary: false
+
+- type: department
   id: Specific
   name: department-Specific
   description: department-Specific-description

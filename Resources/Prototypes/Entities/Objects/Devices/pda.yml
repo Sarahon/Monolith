@@ -1492,3 +1492,22 @@
         type: HealthAnalyzerBoundUserInterface
       enum.ChameleonUiKey.Key:
         type: ChameleonBoundUserInterface
+
+- type: entity
+  parent: BaseSecurityPDA
+  id: USSPPrivatePDA
+  name: USSP private PDA
+  description: A portable microcomputer by Thinktronic Systems, LTD. For the loyal Soviet private.
+  components:
+  - type: Pda
+    owner: USSP Private
+    idCard: USSPPrivateIDCard
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-security
+  - type: PdaBorderColor
+    borderColor: "#B22222" # Soviet Red
+  - type: Icon
+    state: pda-security

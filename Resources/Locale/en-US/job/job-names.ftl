@@ -122,3 +122,6 @@ JobVisitor = Visitor
 # Frontier: Warden<Bailiff
 JobWarden = Bailiff
 JobZookeeper = Zookeeper
+
+job-name-ussp-private = Private
+job-supervisors-ussp = the Commissars
