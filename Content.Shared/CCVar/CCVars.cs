@@ -59,4 +59,10 @@ public sealed partial class CCVars : CVars
 
     public static readonly CVarDef<bool> DetailedExamine =
         CVarDef.Create("misc.detailed_examine", true, CVar.CLIENT | CVar.ARCHIVE | CVar.REPLICATED); // Goobstation Change
+
+    /// <summary>
+    /// Whether to maintain the relative positions of docked ships when they arrive at a new FTL destination.
+    /// </summary>
+    public static readonly CVarDef<bool> FTLRestorePositions =
+        CVarDef.Create("ftl.restore_positions", true, CVar.SERVERONLY);
 }
